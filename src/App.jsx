@@ -1,13 +1,17 @@
 
+import Navbar from './component/Navbar/Navbar'
 import './App.css'
+import Banner from './component/Banner/Banner'
 
 function App() {
 
 
   return (
     <>
-      <button className='btn btn-primary'> click</button>
-       
+  <header>
+  <Navbar></Navbar>
+  </header>
+  <Banner></Banner>
     </>
   )
 }
