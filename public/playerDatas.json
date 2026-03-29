@@ -1,0 +1,114 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Virat Kohli",
+      "price": 500,
+      "country": "India",
+      "battingStyle": "Right-Hand Bat",
+      "bowlingStyle": "Right-Arm Medium",
+      "rating": 4.9,
+      "role": "Batsman",
+      "imageUrl": "https://i.ibb.co.com/65Jn0bG/virat.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Rohit Sharma",
+      "price": 7000,
+      "country": "India",
+      "battingStyle": "Right-Hand Bat",
+      "bowlingStyle": "Right-Arm Offbreak",
+      "rating": 4.8,
+      "role": "Batsman",
+      "imageUrl": "https://i.ibb.co.com/LDLkw9fv/rohit.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Babar Azam",
+      "price": 650,
+      "country": "Pakistan",
+      "battingStyle": "Right-Hand Bat",
+      "bowlingStyle": "Right-Arm Offbreak",
+      "rating": 4.7,
+      "role": "Batsman",
+      "imageUrl": "https://i.ibb.co.com/qYnD2C4k/babar.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Kane Williamson",
+      "price": 625,
+      "country": "New Zealand",
+      "battingStyle": "Right-Hand Bat",
+      "bowlingStyle": "Right-Arm Offbreak",
+      "rating": 4.8,
+      "role": "Batsman",
+      "imageUrl": "https://i.ibb.co.com/6R9w6W4m/new-zealands-kane-williamson-right-and-teammates-attend-a-training-session-in-lahore-pakistan-thursd.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Ben Stokes",
+      "price": 725,
+      "country": "England",
+      "battingStyle": "Left-Hand Bat",
+      "bowlingStyle": "Right-Arm Fast",
+      "rating": 4.9,
+      "role": "All-Rounder",
+      "imageUrl": "https://i.ibb.co.com/WLZ0T26/ben-stokes-en-angleterre-avant-le-match-de-demi-finale-de-la-coupe-du-monde-de-t20-a-l-adelaide-oval.jpg"
+    },
+    {
+      "id": 6,
+      "name": "David Warner",
+      "price": 6000,
+      "country": "Australia",
+      "battingStyle": "Left-Hand Bat",
+      "bowlingStyle": "Right-Arm Legbreak",
+      "rating": 4.6,
+      "role": "Batsman",
+      "imageUrl":  "https://i.ibb.co.com/MDqj2zXq/bumrah.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Rashid Khan",
+      "price": 6750,
+      "country": "Afghanistan",
+      "battingStyle": "Right-Hand Bat",
+      "bowlingStyle": "Right-Arm Legbreak",
+      "rating": 4.9,
+      "role": "Bowler",
+      "imageUrl": "https://i.ibb.co.com/MDqj2zXq/bumrah.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Jos Buttler",
+      "price": 690,
+      "country": "England",
+      "battingStyle": "Right-Hand Bat",
+      "bowlingStyle": null,
+      "rating": 4.8,
+      "role": "Wicket-Keeper",
+      "imageUrl": "https://i.ibb.co.com/4n4JHtwT/jobbutler.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Jasprit Bumrah",
+      "price": 710,
+      "country": "India",
+      "battingStyle": "Right-Hand Bat",
+      "bowlingStyle": "Right-Arm Fast",
+      "rating": 4.9,
+      "role": "Bowler",
+      "imageUrl": "https://i.ibb.co.com/MDqj2zXq/bumrah.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Shakib Al Hasan",
+      "price": 640,
+      "country": "Bangladesh",
+      "battingStyle": "Left-Hand Bat",
+      "bowlingStyle": "Left-Arm Orthodox",
+      "rating": 4.7,
+      "role": "All-Rounder",
+      "imageUrl":  "https://i.ibb.co.com/MDqj2zXq/bumrah.jpg"
+    }
+  ]
+}
