@@ -27,7 +27,7 @@ const {name, price, country,battingStyle,bowlingStyle , imageUrl,rating,role}=pl
     <span className='text-gray-600'>{bowlingStyle}</span>
 </div>
 
-<div className='flex justifybet'>
+<div className='flex justify-between'>
 <h2 className='font-bold'>Price:{price}$</h2>
 <button className='btn'>Choose Player</button>
 
