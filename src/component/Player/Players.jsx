@@ -2,7 +2,7 @@ import React, { use, useState } from 'react';
 import AvailablePlayer from './AvailablePlayer';
 import SelectedPlayer from './SelectedPlayer';
 
-const Players = ({playerPromise}) => {
+const Players = ({playerPromise ,setCoin,coin}) => {
     const playerData =use(playerPromise)
     const players=playerData.players;
 // state for toggling
@@ -25,7 +25,7 @@ const [selected ,setSelected]=useState("available")
 {
 
      selected=== "available"?   
-          <AvailablePlayer players={players} /> : <SelectedPlayer/> 
+          <AvailablePlayer setCoin={setCoin} coin={coin} players={players} /> : <SelectedPlayer/> 
 }
 
         </div>

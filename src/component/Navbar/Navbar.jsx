@@ -1,8 +1,8 @@
 import React from 'react';
 import Logo from '../../assets/logo.png';
-import coin from '../../assets/Currency.png';
+import coins from '../../assets/Currency.png';
 
-const Navbar = () => {
+const Navbar = ({coin}) => {
   return (
     <div className="navbar bg-base-100 shadow-sm px-4">
 
@@ -57,8 +57,8 @@ const Navbar = () => {
 
         {/* Coin Section */}
         <div className="flex gap-2 items-center btn">
-          <h1 className="font-semibold">0 Coin</h1>
-          <img src={coin} alt="coin" className="w-6 h-6" />
+          <h1 className="font-semibold">{coin} Coin</h1>
+          <img src={coins} alt="coin" className="w-6 h-6" />
         </div>
 
       </div>
