@@ -1,12 +1,27 @@
 import { User, Flag } from 'lucide-react';
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
-const Card = ({ player ,setCoin,coin}) => {
+const Card = ({ player ,setCoin,coin,choosePlayer,setChoosePlayer}) => {
   const { name, price, country, battingStyle, bowlingStyle, imageUrl, rating, role } = player;
   const [active, setActive] = useState(false);
-const handleEvent =()=>{
+const handleEvent =(player)=>{
+  
+ 
+// check for duplicate player
+const alreadyExist =choosePlayer.find(pl=>pl.name===player.name);
+if (alreadyExist) {
+ toast.warning(`Player ${player.name} already exist !`);
+  return
+}
+else{
+   toast.success(`Player ${player.name} Seclected !`);
+}
     setActive(true)
-    setCoin(coin-price)
+    setCoin(coin-price) 
+    setChoosePlayer([...choosePlayer ,player] )
+    
+    
 }
   return (
     <div className='p-5 shadow-md'>
@@ -43,7 +58,7 @@ const handleEvent =()=>{
         <div className="flex justify-between items-center mt-2">
           <h2 className="font-bold">Price: ${price}</h2>
           <button
-            onClick={handleEvent}
+            onClick={()=>handleEvent(player)}
             className='btn'
             disabled={active}
           >
